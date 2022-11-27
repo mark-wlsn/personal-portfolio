@@ -306,7 +306,6 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10rem;
-  
 }
 @media only screen and (max-width: 56.25em) {
   .about__content {
@@ -760,7 +759,7 @@ textarea {
 }
 
 .main-footer {
-  background: white;
+  background: #15133c;
   color: #fff;
 }
 .main-footer__upper {
