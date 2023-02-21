@@ -311,6 +311,7 @@ textarea {
   .about__content {
     grid-template-columns: 1fr;
     grid-gap: 8rem;
+    
   }
 }
 .about__content-title {
@@ -322,6 +323,8 @@ textarea {
 @media only screen and (max-width: 37.5em) {
   .about__content-title {
     font-size: 2.4rem;
+    flex-direction: column;
+    text-align: center;
   }
 }
 .about__content-details-para {
@@ -339,6 +342,12 @@ textarea {
   margin-bottom: 4rem;
 }
 
+@media only screen and (max-width: 37.5em){
+  .about__content-details-para{
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -843,6 +852,13 @@ textarea {
   border-radius: 5px;
   font-weight: 600;
   color: #777;
+}
+
+@media only screen and (max-width: 56.25em){
+  .skills__skill{
+    flex-direction: column;
+    text-align: center
+  }
 }
 
 .mouse {
